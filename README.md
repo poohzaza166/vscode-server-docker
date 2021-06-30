@@ -11,5 +11,5 @@ sudo docker build -t vscodeserver .
 
 run it with docker
 
-sudo docker run -it -v"$HOME/save-code":/save-code -v"$HOME/vscode-server-docker/setting":/root/.local/share/code-server -v"$HOME/vscode-server-docker/config.yaml:/root/.config/code-server/config.yaml -p8080:8080 vscodeserver 
+sudo docker run -it -v"$HOME/save-code":/save-code -v"$HOME/vscode-server-docker/setting":/root/.local/share/code-server -v"$HOME/vscode-server-docker/config.yaml":/root/.config/code-server/config.yaml -p8080:8080 vscodeserver 
 
